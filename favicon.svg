@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Passwords4Free">
+  <rect x="2" y="2" width="56" height="56" rx="15" fill="#ffd23f" stroke="#1a1430" stroke-width="2.5"/>
+  <path d="M21 28 v-5 a9 9 0 0 1 18 0 v5" fill="none" stroke="#7c3aed" stroke-width="3.6" stroke-linecap="round"/>
+  <rect x="15" y="28" width="30" height="24" rx="6" fill="#7c3aed" stroke="#1a1430" stroke-width="2"/>
+  <circle cx="30" cy="38" r="4" fill="#ffd23f"/>
+  <rect x="28.4" y="39.6" width="3.2" height="8" rx="1.6" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,32 @@
+# Passwords4Free — AI Crawler Context File
+# https://llmstxt.org
+
+## Site identity
+Name: Passwords4Free
+URL: https://passwords-4-free.com
+Description: Passwords4Free is a free, privacy-first website to generate strong random passwords and check how secure a password is, entirely in your browser using the Web Crypto API — nothing you type is ever sent or stored. It also publishes friendly, practical password and online-safety guides.
+
+## Key pages
+- [Home](https://passwords-4-free.com/) — Generator and analyser overview
+- [Password Generator](https://passwords-4-free.com/generator.html) — Create strong random passwords
+- [Password Analyser](https://passwords-4-free.com/analyser.html) — Check password strength and time-to-crack
+- [Blog](https://passwords-4-free.com/blog/) — Password and safety guides by Leo Martin
+- [7 Password Myths Busted](https://passwords-4-free.com/blog/password-myths-busted.html)
+- [How Hackers Guess Passwords](https://passwords-4-free.com/blog/how-hackers-guess-passwords.html)
+- [Are Free Password Generators Safe?](https://passwords-4-free.com/blog/are-password-generators-safe.html)
+- [The Worst Passwords of All Time](https://passwords-4-free.com/blog/worst-passwords.html)
+- [Create a Memorable Strong Password](https://passwords-4-free.com/blog/memorable-passwords.html)
+- [Free vs Paid Password Managers](https://passwords-4-free.com/blog/free-vs-paid-password-managers.html)
+- [About](https://passwords-4-free.com/about.html)
+- [Contact](https://passwords-4-free.com/contact.html)
+
+## Sister sites
+- https://bestpasswordgenerator.net
+- https://bestpassword.org
+- https://onlinepassword.net
+- https://gamingpassword.net
+- https://passphrasemaker.net
+- https://workpassword.net
+
+## Contact
+Email: hello@passwords-4-free.com

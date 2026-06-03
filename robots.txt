@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://passwords-4-free.com/sitemap.xml

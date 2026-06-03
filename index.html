@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#7c3aed">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Passwords4Free — Free Strong Password Maker &amp; Checker</title>
+<meta name="description" content="Create strong, truly random passwords and check how secure yours are. 100% free, runs in your browser — nothing is ever sent or stored. Plus guides on staying safe online.">
+<link rel="canonical" href="https://passwords-4-free.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Passwords4Free — Free Strong Password Maker &amp; Checker">
+<meta property="og:description" content="Create strong, random passwords and check how secure yours are. 100% in-browser and private — nothing is ever sent anywhere.">
+<meta property="og:image" content="https://passwords-4-free.com/og-image.png">
+<meta property="og:url" content="https://passwords-4-free.com/">
+<meta property="og:site_name" content="Passwords4Free">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Passwords4Free — Free Strong Password Maker &amp; Checker">
+<meta name="twitter:description" content="Create strong, random passwords and check how secure yours are. Private and in-browser.">
+<meta name="twitter:image" content="https://passwords-4-free.com/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"https://passwords-4-free.com/#org","name":"Passwords4Free","url":"https://passwords-4-free.com/","logo":"https://passwords-4-free.com/og-image.png","email":"hello@passwords-4-free.com","description":"A privacy-first password generator, strength analyser and online-security resource.","sameAs":["https://gamingpassword.net","https://passphrasemaker.net","https://workpassword.net"]},
+{"@type":"WebSite","@id":"https://passwords-4-free.com/#website","url":"https://passwords-4-free.com/","name":"Passwords4Free","publisher":{"@id":"https://passwords-4-free.com/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://passwords-4-free.com/blog/?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+{"@type":"SoftwareApplication","name":"Passwords4Free","operatingSystem":"Any (web browser)","applicationCategory":"SecurityApplication","url":"https://passwords-4-free.com/","description":"Free in-browser password generator and strength analyser. Uses the Web Crypto API; nothing is sent to a server.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is the Passwords4Free free?","acceptedAnswer":{"@type":"Answer","text":"Yes. It is completely free with no account, no paywall and no limits. Generate and check as many passwords as you like."}},
+{"@type":"Question","name":"Are my passwords sent to a server?","acceptedAnswer":{"@type":"Answer","text":"No. Every password is created and analysed inside your own browser using the Web Crypto API. Nothing is transmitted, logged or stored. Close the tab and it is gone."}},
+{"@type":"Question","name":"How long should a password be?","acceptedAnswer":{"@type":"Answer","text":"Aim for at least 16 characters, and 20 or more for important accounts. Length matters more than swapping a letter for a symbol."}},
+{"@type":"Question","name":"What makes a password very strong?","acceptedAnswer":{"@type":"Answer","text":"We measure entropy in bits (length times log2 of the character pool). Around 80 bits or more is practically impossible to brute-force and is labelled Very strong."}}
+]}
+]}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="/"><img src="/logo.svg" alt="Passwords4Free" width="338" height="66"></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-controls="nav-links" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/" aria-current="page">Home</a></li>
+      <li><a href="/generator.html">Generator</a></li>
+      <li><a href="/analyser.html">Analyser</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <div class="grid grid-2" style="align-items:center;gap:34px">
+        <div>
+          <span class="eyebrow">Free · private · in your browser</span>
+          <h1>The last password you'll have to think about.</h1>
+          <p class="lede">Create a strong, truly random password in one click — then check how safe your current ones really are. Everything happens in your browser. No logins, no tracking, nothing sent anywhere.</p>
+          <div class="btn-row" style="margin-top:22px">
+            <a class="btn btn-primary" href="#generator">Generate a password</a>
+            <a class="btn btn-secondary" href="/analyser.html">Check a password</a>
+          </div>
+        </div>
+        <div class="tool" id="generator" data-generator>
+          <div class="output-wrap">
+            <div class="output-label"><span class="soft">Your password</span><span class="soft">click to select</span></div>
+            <output class="output" data-output aria-live="polite">Generating…</output>
+          </div>
+          <div class="strength" aria-live="polite">
+            <div class="strength-head"><span class="strength-word soft" data-strength-word>—</span><span class="strength-bits" data-strength-bits>0 bits</span></div>
+            <div class="strength-bar" data-strength-bar><i></i></div>
+          </div>
+          <div class="controls">
+            <div class="field-row">
+              <label for="len">Length</label>
+              <div class="length-row"><input type="range" id="len" min="8" max="64" value="18" step="1" data-length aria-describedby="len-val"><span class="length-val" id="len-val" data-length-val>18</span></div>
+            </div>
+            <div class="field-row">
+              <label>Include</label>
+              <div class="toggles">
+                <label class="toggle"><input type="checkbox" data-lower checked> <span>Lowercase <code>a-z</code></span></label>
+                <label class="toggle"><input type="checkbox" data-upper checked> <span>Uppercase <code>A-Z</code></span></label>
+                <label class="toggle"><input type="checkbox" data-numbers checked> <span>Numbers <code>0-9</code></span></label>
+                <label class="toggle"><input type="checkbox" data-symbols checked> <span>Symbols <code>!@#$%</code></span></label>
+                <label class="toggle"><input type="checkbox" data-exclude> <span>Exclude look-alikes <code>I l 1 O 0</code></span></label>
+              </div>
+            </div>
+            <div class="presets">
+              <span class="soft">Quick presets</span>
+              <button type="button" class="chip" data-preset="max">Max security</button>
+              <button type="button" class="chip" data-preset="nosym">No symbols</button>
+              <button type="button" class="chip" data-preset="easy">Easy to type</button>
+            </div>
+            <div class="actions">
+              <button type="button" class="btn btn-primary" data-generate>Generate</button>
+              <button type="button" class="btn btn-secondary" data-copy>Copy</button>
+              <button type="button" class="btn btn-secondary" data-regenerate>Regenerate</button>
+            </div>
+          </div>
+          <p class="privacy-note">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5z"/></svg>
+            <span>Everything runs in your browser — nothing is sent anywhere. Close the tab and the password is gone for good.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="center"><h2>Two tools, zero tracking</h2><p class="lede center">Make a new password, or stress-test one you already use. Both run entirely on your device.</p></div>
+      <div class="grid grid-3" style="margin-top:34px">
+        <div class="card feature"><h3><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5z"/></svg></span>Generator</h3><p>Cryptographically secure, truly random passwords using your browser's Web Crypto API. Control length, character types and look-alikes.</p><p><a href="/generator.html">Open the generator →</a></p></div>
+        <div class="card feature"><h3><span class="ico alt"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>Analyser</h3><p>Paste a password to see its entropy, an estimated time-to-crack, and exactly which weaknesses to fix — without it ever leaving your device.</p><p><a href="/analyser.html">Check a password →</a></p></div>
+        <div class="card feature"><h3><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></span>Security guides</h3><p>Plain-English articles on passwords, phishing, scams, antivirus and password managers — so you can stay a step ahead.</p><p><a href="/blog/">Read the blog →</a></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="center"><h2>Part of a family of password tools</h2><p class="lede center">Built the same way — private, free, no logins. Pick the one that fits.</p></div>
+      <div class="sister-grid" style="margin-top:26px">
+        <a class="card" href="https://bestpasswordgenerator.net" rel="noopener" style="text-decoration:none"><h3>Best Password Generator</h3><p class="soft">A privacy-first generator and strength analyser — our sister tool site.</p></a>
+        <a class="card" href="https://gamingpassword.net" rel="noopener" style="text-decoration:none"><h3>GamingPassword</h3><p class="soft">Strong passwords tuned for gamers — Steam, Discord, Riot, Xbox and PSN.</p></a>
+        <a class="card" href="https://passphrasemaker.net" rel="noopener" style="text-decoration:none"><h3>PassphraseMaker</h3><p class="soft">Memorable passphrases that are strong <em>and</em> easy to remember.</p></a>
+        <a class="card" href="https://workpassword.net" rel="noopener" style="text-decoration:none"><h3>WorkPassword</h3><p class="soft">Policy-ready passwords for the workplace, teams and IT admins.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <h2 class="center">Frequently asked questions</h2>
+      <div class="faq" style="max-width:760px;margin:26px auto 0">
+        <details><summary>Is the Passwords4Free really free?</summary><p>Yes — completely free, with no account, paywall or limits. Generate and check as many passwords as you need.</p></details>
+        <details><summary>Are my passwords sent to a server?</summary><p>No. Every password is generated and analysed inside your own browser using the Web Crypto API. Nothing is transmitted, logged or stored. Close the tab and it's gone.</p></details>
+        <details><summary>How long should a password be?</summary><p>Aim for at least 16 characters, and 20+ for important accounts. Length matters more than swapping a letter for a symbol. Our <a href="/blog/">blog</a> goes deeper.</p></details>
+        <details><summary>What does the analyser actually check?</summary><p>It estimates entropy (in bits), an offline time-to-crack, and flags weak patterns like common passwords, sequences and repeats. See the <a href="/analyser.html">analyser</a>.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="footer-grid">
+    <div class="footer-brand"><a class="brand" href="/"><img src="/logo.svg" alt="Passwords4Free" width="220" height="47"></a><p>A privacy-first password generator and strength analyser. Your passwords never leave your device.</p></div>
+    <div><h4>Tools</h4><ul><li><a href="/generator.html">Password Generator</a></li><li><a href="/analyser.html">Password Analyser</a></li></ul></div>
+    <div><h4>Learn</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li></ul></div>
+    <div><h4>Sister sites</h4><ul><li><a href="https://bestpasswordgenerator.net" rel="noopener">Best Password Generator</a></li><li><a href="https://bestpassword.org" rel="noopener">Best Password</a></li><li><a href="https://onlinepassword.net" rel="noopener">OnlinePassword</a></li><li><a href="https://gamingpassword.net" rel="noopener">GamingPassword</a></li><li><a href="https://passphrasemaker.net" rel="noopener">PassphraseMaker</a></li><li><a href="https://workpassword.net" rel="noopener">WorkPassword</a></li></ul></div>
+    <div><h4>Legal</h4><ul><li><a href="/privacy.html">Privacy</a></li><li><a href="/terms.html">Terms</a></li><li><a href="/cookie-policy.html">Cookies</a></li></ul></div>
+    <div><h4>Recommended</h4><ul><li><a href="https://go.nordpass.io/aff_c?offer_id=488&aff_id=34741&url_id=1841&source=passwords-4-free" rel="nofollow noopener sponsored">NordPass Password Manager <small style="opacity:.7">(Save 52%)</small></a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Passwords4Free. All rights reserved.</span><span>Free · private · runs entirely in your browser.<span style="display:block;margin-top:8px">⭐ <a href="https://google.com/preferences/source?q=passwords-4-free.com" rel="noopener" style="font-weight:500">Make Passwords4Free your preferred source on Google</a></span></span></div>
+</div></footer>
+<script src="/assets/app.js" defer></script>
+</body>
+</html>
