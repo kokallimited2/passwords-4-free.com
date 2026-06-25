@@ -1,0 +1,453 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "assets_app",
+      "community": 0,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "randomInt()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "assets_app_randomint",
+      "community": 1,
+      "norm_label": "randomint()"
+    },
+    {
+      "label": "buildPool()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "assets_app_buildpool",
+      "community": 1,
+      "norm_label": "buildpool()"
+    },
+    {
+      "label": "setStrength()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "assets_app_setstrength",
+      "community": 1,
+      "norm_label": "setstrength()"
+    },
+    {
+      "label": "clearStrength()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "assets_app_clearstrength",
+      "community": 1,
+      "norm_label": "clearstrength()"
+    },
+    {
+      "label": "generate()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "assets_app_generate",
+      "community": 1,
+      "norm_label": "generate()"
+    },
+    {
+      "label": "copyPassword()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L131",
+      "_origin": "ast",
+      "id": "assets_app_copypassword",
+      "community": 0,
+      "norm_label": "copypassword()"
+    },
+    {
+      "label": "syncLength()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L163",
+      "_origin": "ast",
+      "id": "assets_app_synclength",
+      "community": 2,
+      "norm_label": "synclength()"
+    },
+    {
+      "label": "applyPreset()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L168",
+      "_origin": "ast",
+      "id": "assets_app_applypreset",
+      "community": 2,
+      "norm_label": "applypreset()"
+    },
+    {
+      "label": "poolSize()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L234",
+      "_origin": "ast",
+      "id": "assets_app_poolsize",
+      "community": 0,
+      "norm_label": "poolsize()"
+    },
+    {
+      "label": "hasSequence()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L242",
+      "_origin": "ast",
+      "id": "assets_app_hassequence",
+      "community": 0,
+      "norm_label": "hassequence()"
+    },
+    {
+      "label": "isRepeated()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L252",
+      "_origin": "ast",
+      "id": "assets_app_isrepeated",
+      "community": 0,
+      "norm_label": "isrepeated()"
+    },
+    {
+      "label": "fmtTime()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L253",
+      "_origin": "ast",
+      "id": "assets_app_fmttime",
+      "community": 0,
+      "norm_label": "fmttime()"
+    },
+    {
+      "label": "setBar()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L268",
+      "_origin": "ast",
+      "id": "assets_app_setbar",
+      "community": 0,
+      "norm_label": "setbar()"
+    },
+    {
+      "label": "render()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L273",
+      "_origin": "ast",
+      "id": "assets_app_render",
+      "community": 0,
+      "norm_label": "render()"
+    },
+    {
+      "label": "analyse()",
+      "file_type": "code",
+      "source_file": "assets/app.js",
+      "source_location": "L283",
+      "_origin": "ast",
+      "id": "assets_app_analyse",
+      "community": 0,
+      "norm_label": "analyse()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_analyse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_applypreset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_buildpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_clearstrength",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_copypassword",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_fmttime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_hassequence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L252",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_isrepeated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L234",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_poolsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_randomint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L273",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_render",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L268",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_setbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_setstrength",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "assets_app",
+      "target": "assets_app_synclength",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "assets_app_generate",
+      "target": "assets_app_randomint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "assets_app_generate",
+      "target": "assets_app_buildpool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "assets_app_generate",
+      "target": "assets_app_setstrength",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "assets_app_generate",
+      "target": "assets_app_clearstrength",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "assets_app_applypreset",
+      "target": "assets_app_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "assets_app_applypreset",
+      "target": "assets_app_synclength",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "assets_app_analyse",
+      "target": "assets_app_poolsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L300",
+      "weight": 1.0,
+      "source": "assets_app_analyse",
+      "target": "assets_app_hassequence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L301",
+      "weight": 1.0,
+      "source": "assets_app_analyse",
+      "target": "assets_app_isrepeated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L312",
+      "weight": 1.0,
+      "source": "assets_app_analyse",
+      "target": "assets_app_fmttime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "assets_app_analyse",
+      "target": "assets_app_setbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "assets/app.js",
+      "source_location": "L290",
+      "weight": 1.0,
+      "source": "assets_app_analyse",
+      "target": "assets_app_render",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "ebcfba243101016e31fd206c331d721eac452ea7"
+}
