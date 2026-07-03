@@ -370,6 +370,31 @@ input[type=range]::-moz-range-thumb{
   *{transition:none!important;scroll-behavior:auto!important}
 }
 
+/* ===========================================================
+   DARK MODE (auto)
+   =========================================================== */
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#120c1f;
+    --card:#1e1533;
+    --field:#2a1e44;
+    --border:rgba(216,210,234,.2);
+    --border-strong:#7c3aed;
+    --ink:#f0ebfa;
+    --body:#c9c0dd;
+    --soft:#9488b3;
+    --accent:#a78bfa;
+    --accent2:#fbbf24;
+  }
+  .site-header{background:var(--bg)!important;border-bottom-color:var(--accent2)!important}
+  .card,.tool,.faq details{background:var(--card);box-shadow:5px 5px 0 var(--accent)}
+  .site-footer{background:#0a0614!important;border-top-color:var(--accent2)}
+  .hero{background:radial-gradient(820px 360px at 82% -8%,rgba(167,139,250,.12),transparent 60%),radial-gradient(680px 360px at 4% 0%,rgba(251,191,36,.15),transparent 58%)}
+  .toggle,.an-input-wrap input,.form-field input,.form-field textarea,.output{background:var(--field)}
+  .privacy-note{border-color:rgba(167,139,250,.35)}
+  img{opacity:.9} .brand img{filter:brightness(1.15)}
+}
+
 /* ---- Password analyser ---- */
 .an-input-wrap{position:relative;display:flex;gap:10px;align-items:stretch}
 .an-input-wrap input{flex:1;background:var(--field);border:1px solid var(--border-strong);
