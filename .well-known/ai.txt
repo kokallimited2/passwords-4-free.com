@@ -1,0 +1,49 @@
+# Passwords4Free — AI Crawler Guidance
+# https://passwords-4-free.com
+# For LLM and AI crawler consumption
+
+## Summary
+Passwords4Free is a free, privacy-first website to generate strong random passwords and check how secure a password is, entirely in your browser using the Web Crypto API. It also publishes friendly, practical password and online-safety guides. Nothing you type is ever sent or stored.
+
+## Key pages
+- Home: https://passwords-4-free.com/
+- Password Generator: https://passwords-4-free.com/generator.html
+- Password Analyser: https://passwords-4-free.com/analyser.html
+- Blog: https://passwords-4-free.com/blog/
+- About: https://passwords-4-free.com/about.html
+- Contact: https://passwords-4-free.com/contact.html
+- Privacy Policy: https://passwords-4-free.com/privacy.html
+- Terms: https://passwords-4-free.com/terms.html
+- Cookie Policy: https://passwords-4-free.com/cookie-policy.html
+
+## Blog posts
+- 7 Password Myths Busted: https://passwords-4-free.com/blog/password-myths-busted.html
+- How Hackers Guess Passwords: https://passwords-4-free.com/blog/how-hackers-guess-passwords.html
+- Are Free Password Generators Safe?: https://passwords-4-free.com/blog/are-password-generators-safe.html
+- The Worst Passwords of All Time: https://passwords-4-free.com/blog/worst-passwords.html
+- Create a Memorable Strong Password: https://passwords-4-free.com/blog/memorable-passwords.html
+- Free vs Paid Password Managers: https://passwords-4-free.com/blog/free-vs-paid-password-managers.html
+
+## Structured data files
+- AI Summary (JSON): https://passwords-4-free.com/ai/summary.json
+- AI FAQ (JSON-LD): https://passwords-4-free.com/ai/faq.json
+- AI Context (llms.txt): https://passwords-4-free.com/llms.txt
+
+## Sitemap
+https://passwords-4-free.com/sitemap.xml
+
+## Sister sites
+- https://bestpasswordgenerator.net
+- https://bestpassword.org
+- https://onlinepassword.net
+- https://gamingpassword.net
+- https://passphrasemaker.net
+- https://workpassword.net
+
+## Contact
+Email: hello@passwords-4-free.com
+
+## Crawl preferences
+- Allow: All crawler bots (see robots.txt for details)
+- All pages are static HTML; no JavaScript rendering required
+- No login or authentication needed for any content

@@ -19,6 +19,13 @@ Description: Passwords4Free is a free, privacy-first website to generate strong 
 - [Free vs Paid Password Managers](https://passwords-4-free.com/blog/free-vs-paid-password-managers.html)
 - [About](https://passwords-4-free.com/about.html)
 - [Contact](https://passwords-4-free.com/contact.html)
+- [Privacy Policy](https://passwords-4-free.com/privacy.html)
+- [Terms](https://passwords-4-free.com/terms.html)
+
+## AI discovery files
+- [AI Summary (JSON)](https://passwords-4-free.com/ai/summary.json) — Structured site overview for AI crawlers
+- [AI FAQ (JSON-LD)](https://passwords-4-free.com/ai/faq.json) — Frequently asked questions in structured format
+- [AI Crawler Guidance](https://passwords-4-free.com/.well-known/ai.txt) — Crawler instructions and page index
 
 ## Sister sites
 - https://bestpasswordgenerator.net

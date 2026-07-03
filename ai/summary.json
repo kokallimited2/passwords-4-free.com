@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Passwords4Free",
+  "url": "https://passwords-4-free.com",
+  "description": "Passwords4Free is a free, privacy-first website for generating strong random passwords and checking password strength. Everything runs in your browser using the Web Crypto API — nothing you type is ever sent to a server, logged, or stored. The site also publishes friendly, practical password and online-safety guides.",
+  "author": {
+    "@type": "Person",
+    "name": "Leo Martin"
+  },
+  "applicationCategory": "SecurityApplication",
+  "operatingSystem": "Any (web browser)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Cryptographically secure password generation via Web Crypto API",
+    "Password strength analyser with time-to-crack estimates and entropy calculation",
+    "Customisable password options: length, character types, exclude look-alikes",
+    "100% client-side — no data transmission, no accounts, no tracking",
+    "Password and online-safety blog by Leo Martin"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "description": "Anyone who needs strong, secure passwords and wants plain-English guidance on online safety — from casual users to security-conscious individuals."
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://passwords-4-free.com/"
+  },
+  "relatedLinks": [
+    {
+      "@type": "WebPage",
+      "name": "Password Generator",
+      "url": "https://passwords-4-free.com/generator.html",
+      "description": "Create strong random passwords with customisable length and character sets."
+    },
+    {
+      "@type": "WebPage",
+      "name": "Password Analyser",
+      "url": "https://passwords-4-free.com/analyser.html",
+      "description": "Check password strength, entropy, and estimated time-to-crack."
+    },
+    {
+      "@type": "Blog",
+      "name": "Passwords4Free Blog",
+      "url": "https://passwords-4-free.com/blog/",
+      "description": "Password and safety guides by Leo Martin."
+    },
+    {
+      "@type": "WebPage",
+      "name": "About",
+      "url": "https://passwords-4-free.com/about.html",
+      "description": "Mission, how it works, and why you can trust Passwords4Free."
+    }
+  ],
+  "blogPosts": [
+    {
+      "@type": "BlogPosting",
+      "headline": "7 Password Myths That Are Putting You at Risk",
+      "url": "https://passwords-4-free.com/blog/password-myths-busted.html",
+      "datePublished": "2026-05-06",
+      "author": { "@type": "Person", "name": "Leo Martin" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "How Hackers Actually Guess Your Passwords",
+      "url": "https://passwords-4-free.com/blog/how-hackers-guess-passwords.html",
+      "datePublished": "2026-05-11",
+      "author": { "@type": "Person", "name": "Leo Martin" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Are Free Password Generators Safe to Use?",
+      "url": "https://passwords-4-free.com/blog/are-password-generators-safe.html",
+      "datePublished": "2026-05-15",
+      "author": { "@type": "Person", "name": "Leo Martin" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "The Worst Passwords of All Time (and What They Teach Us)",
+      "url": "https://passwords-4-free.com/blog/worst-passwords.html",
+      "datePublished": "2026-05-20",
+      "author": { "@type": "Person", "name": "Leo Martin" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "How to Create a Strong Password You'll Actually Remember",
+      "url": "https://passwords-4-free.com/blog/memorable-passwords.html",
+      "datePublished": "2026-05-25",
+      "author": { "@type": "Person", "name": "Leo Martin" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Free vs Paid Password Managers: Do You Need to Pay?",
+      "url": "https://passwords-4-free.com/blog/free-vs-paid-password-managers.html",
+      "datePublished": "2026-05-29",
+      "author": { "@type": "Person", "name": "Leo Martin" }
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "hello@passwords-4-free.com",
+    "contactType": "customer support"
+  },
+  "sameAs": [],
+  "sisterSites": [
+    "https://bestpasswordgenerator.net",
+    "https://bestpassword.org",
+    "https://onlinepassword.net",
+    "https://gamingpassword.net",
+    "https://passphrasemaker.net",
+    "https://workpassword.net"
+  ],
+  "privacyPolicy": "https://passwords-4-free.com/privacy.html",
+  "termsOfService": "https://passwords-4-free.com/terms.html",
+  "sitemap": "https://passwords-4-free.com/sitemap.xml"
+}

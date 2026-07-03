@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Passwords4Free really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. It is completely free with no account required, no paywall, no limits, and no ads. Generate and check as many passwords as you like."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are my passwords sent to a server?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Every password is created and analysed inside your own browser using the Web Crypto API. Nothing is transmitted, logged, or stored. Close the tab and it is gone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should a password be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aim for at least 16 characters, and 20 or more for important accounts. Length matters far more than swapping letters for symbols."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes a password 'very strong'?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We measure entropy in bits (length times log₂ of the character pool). Around 80 bits or more is practically impossible to brute-force and is labelled 'Very strong'."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I choose which characters to include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. On the Generator page you can toggle uppercase, lowercase, digits, and symbols on or off. You can also exclude look-alike characters (e.g. 0/O, 1/l/I)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Analyser store the passwords I check?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Analyser runs entirely in your browser. Your input is never sent anywhere, and no data is stored or logged."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the password generator cryptographically secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We use the Web Crypto API's crypto.getRandomValues(), which is a cryptographically secure pseudo-random number generator (CSPRNG) backed by the operating system's entropy source."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a password manager?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not strictly, but we recommend one. Password managers make it easy to use unique, strong passwords for every account without remembering them all. We have a guide comparing free and paid options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the worst passwords I should avoid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Avoid 'password', '123456', 'qwerty', 'admin', 'letmein', 'iloveyou', 'password1', 'abc123', 'monkey', 'master', and any family or pet names. These appear in nearly every breach. Our blog has a full list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is behind Passwords4Free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The site is created and maintained by Leo Martin, a privacy-focused developer who believes that good online security tools should be free, simple, and private."
+      }
+    }
+  ]
+}
