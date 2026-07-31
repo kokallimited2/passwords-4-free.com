@@ -1,2 +1,9 @@
 scripts/node_modules/
 scripts/package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*
+
+graphify-out/
