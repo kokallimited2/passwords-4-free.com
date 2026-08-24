@@ -1,0 +1,132 @@
+/* ============================================================
+   Social Share Widget — ZAHA Labs portfolio-wide
+   Floating share button (bottom-right) + network popover.
+   Self-contained, no external requests, works on every theme.
+   ============================================================ */
+#ss-fab, #ss-panel, #ss-toast {
+  --ss-bg: #ffffff;
+  --ss-ink: #1a1d23;
+  --ss-muted: #6b7280;
+  --ss-border: rgba(15, 23, 42, 0.10);
+  --ss-shadow: 0 10px 30px rgba(15, 23, 42, 0.18);
+  --ss-radius: 14px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+#ss-fab {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 1px solid var(--ss-border);
+  border-radius: 999px;
+  background: var(--ss-bg);
+  color: var(--ss-ink);
+  box-shadow: var(--ss-shadow);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+#ss-fab:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(15,23,42,.24); }
+#ss-fab svg { width: 20px; height: 20px; flex: 0 0 auto; }
+#ss-fab .ss-label { white-space: nowrap; }
+#ss-fab[aria-expanded="true"] .ss-fab-open { display: none; }
+#ss-fab[aria-expanded="true"] .ss-fab-close { display: block; }
+#ss-fab .ss-fab-close { display: none; }
+
+/* Panel */
+#ss-panel {
+  position: fixed;
+  right: 18px;
+  bottom: 76px;
+  z-index: 999998;
+  width: 300px;
+  max-width: calc(100vw - 24px);
+  background: var(--ss-bg);
+  border: 1px solid var(--ss-border);
+  border-radius: var(--ss-radius);
+  box-shadow: var(--ss-shadow);
+  padding: 14px;
+  display: none;
+}
+#ss-panel.ss-open { display: block; animation: ssPop .16s ease; }
+@keyframes ssPop {
+  from { opacity: 0; transform: translateY(8px) scale(.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+#ss-panel-title {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--ss-muted);
+}
+#ss-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.ss-net {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 4px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ss-ink);
+  transition: background .15s ease, border-color .15s ease, transform .15s ease;
+}
+.ss-net:hover { background: rgba(15, 23, 42, 0.05); border-color: var(--ss-border); transform: translateY(-1px); }
+.ss-net:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+.ss-net svg { width: 22px; height: 22px; display: block; }
+.ss-net span { line-height: 1; }
+
+/* Toast */
+#ss-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 90px;
+  transform: translateX(-50%) translateY(8px);
+  z-index: 999999;
+  background: #111827;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 999px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+#ss-toast.ss-show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* Mobile: full-width bottom sheet */
+@media (max-width: 640px) {
+  #ss-panel {
+    right: 12px;
+    bottom: 82px;
+    left: 12px;
+    width: auto;
+    border-radius: 16px;
+  }
+  .ss-net { padding: 12px 4px; }
+  .ss-net svg { width: 26px; height: 26px; }
+  #ss-fab { padding: 14px 18px; }
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  #ss-panel, #ss-fab, #ss-toast { transition: none; animation: none; }
+}
