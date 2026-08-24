@@ -157,7 +157,8 @@
     ta.style.opacity = "0";
     document.body.appendChild(ta);
     ta.select();
-    try { document.execCommand("copy"); done(); } catch (e) {}
+    try { document.execCommand("copy"); } catch (e) {}
     document.body.removeChild(ta);
+    done(); // always confirm — the URL was selected even if execCommand failed
   }
 })();
