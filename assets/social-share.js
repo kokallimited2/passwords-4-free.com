@@ -1,5 +1,5 @@
 /* ============================================================
-   Social Share Widget — ZAHA Labs portfolio-wide
+   Social Share Widget — ZAHA Lab portfolio-wide
    Floating share button + popover. Share any page to:
    X, Facebook, Reddit, LinkedIn, WhatsApp, Telegram, Pinterest,
    Email, Copy link, plus native OS share when available.
