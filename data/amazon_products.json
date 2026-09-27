@@ -1,0 +1,518 @@
+{
+ "market": "US",
+ "source": "amazon_pool",
+ "generated": "2026-09-28",
+ "count": 51,
+ "products": [
+  {
+   "asin": "B00XMD7KPU",
+   "title": "Anker USB Hub, 4-in-1 USB Splitter, 4 USB-A Ports with 5Gbps Data Transfer",
+   "price": "14.99",
+   "rating": "4.7",
+   "reviews": 134903,
+   "img": "https://m.media-amazon.com/images/I/61cJHLsLNuL._AC_UY218_.jpg",
+   "category": "tech-accessories",
+   "url": "https://www.amazon.com/dp/B00XMD7KPU"
+  },
+  {
+   "asin": "B07D74DT3B",
+   "title": "SOUNDANCE Laptop Stand, Aluminum Ergonomic Desk Riser, 10-15.6\", Silver",
+   "price": "17.99",
+   "rating": "4.8",
+   "reviews": 51722,
+   "img": "https://m.media-amazon.com/images/I/816Lnq18h7L._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B07D74DT3B"
+  },
+  {
+   "asin": "B07P54RSPY",
+   "title": "Nulaxy Full Aluminum Laptop Stand, Stable Support to 22 lbs, Open Cooling",
+   "price": "17.99",
+   "rating": "4.8",
+   "reviews": 36317,
+   "img": "https://m.media-amazon.com/images/I/71xlXzGX9aL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B07P54RSPY"
+  },
+  {
+   "asin": "B000OOYECC",
+   "title": "Rain Design mStand Laptop Stand (Silver, mStand)",
+   "price": "39.90",
+   "rating": "4.8",
+   "reviews": 11306,
+   "img": "https://m.media-amazon.com/images/I/61aLBwE6tNL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B000OOYECC"
+  },
+  {
+   "asin": "B0769G51R7",
+   "title": "OMOTON Vertical Laptop Stand Holder, Adjustable Dock for MacBook, Black",
+   "price": "25.99",
+   "rating": "4.8",
+   "reviews": 9201,
+   "img": "https://m.media-amazon.com/images/I/61Rld+196fL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B0769G51R7"
+  },
+  {
+   "asin": "B08S6MK33D",
+   "title": "BoYata Laptop Stand, Height Adjustable Laptop Riser for 11-17\" Laptops",
+   "price": "27.99",
+   "rating": "4.8",
+   "reviews": 8482,
+   "img": "https://m.media-amazon.com/images/I/71HWKufLkpL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B08S6MK33D"
+  },
+  {
+   "asin": "B074DTL449",
+   "title": "Laptop Stand Aluminum Cooling Computer Stand Holder for Apple MacBook Air Pro 11-16\" Laptops (Gray)",
+   "price": "39.99",
+   "rating": "4.8",
+   "reviews": 5822,
+   "img": "https://m.media-amazon.com/images/I/71OunFc+OxS._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B074DTL449"
+  },
+  {
+   "asin": "B08YDHLK7C",
+   "title": "JARLINK Vertical Laptop Stand, Adjustable Aluminum Desktop Holder, Silver",
+   "price": "19.99",
+   "rating": "4.8",
+   "reviews": 5540,
+   "img": "https://m.media-amazon.com/images/I/71nl4VxJXhL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B08YDHLK7C"
+  },
+  {
+   "asin": "B08G3YGDJ1",
+   "title": "Lifelong Aluminum Adjustable Laptop Stand, Extra Tall 20\" Riser, Grey",
+   "price": "72.99",
+   "rating": "4.8",
+   "reviews": 4935,
+   "img": "https://m.media-amazon.com/images/I/61oBP7FMjvL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B08G3YGDJ1"
+  },
+  {
+   "asin": "B0B5H6VNHX",
+   "title": "Aluminum Vertical Laptop Stand Dock Holder, Adjustable Slot Width 12-42mm, Space-Saving Upright Storage for MacBook and Laptops",
+   "price": "16.99",
+   "rating": "4.8",
+   "reviews": 3625,
+   "img": "https://m.media-amazon.com/images/I/81wtsNzyQCL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B0B5H6VNHX"
+  },
+  {
+   "asin": "B07377XVNY",
+   "title": "Ergonomic Aluminum Laptop Mount - Adjustable Computer Stand for MacBook Pro/Air HP Lenovo Samsung Dell - Fits 10-17.3\" Laptops (Apple Green)",
+   "price": "26.00",
+   "rating": "4.8",
+   "reviews": 2915,
+   "img": "https://m.media-amazon.com/images/I/71grOVzQhQL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B07377XVNY"
+  },
+  {
+   "asin": "B0FS7BLR83",
+   "title": "Urmust 360\u00b0 Rotating Laptop Stand for Desk fit 10-17\" Device",
+   "price": "46.99",
+   "rating": "4.8",
+   "reviews": 2090,
+   "img": "https://m.media-amazon.com/images/I/61Y6vT1HKuL._AC_UY218_.jpg",
+   "category": "laptop-accessories",
+   "url": "https://www.amazon.com/dp/B0FS7BLR83"
+  },
+  {
+   "asin": "B079LXYYBN",
+   "title": "HUANUO Monitor Riser for Desk, Laptop Stand with Vented Steel Shelf, 2 Pack",
+   "price": "28.99",
+   "rating": "4.8",
+   "reviews": 15406,
+   "img": "https://m.media-amazon.com/images/I/71+BV9egshL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B079LXYYBN"
+  },
+  {
+   "asin": "B07F8JP8GZ",
+   "title": "SITHON Remote Control Holder with 5 Compartments",
+   "price": "9.99",
+   "rating": "4.8",
+   "reviews": 12633,
+   "img": "https://m.media-amazon.com/images/I/614FI-QS7kL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B07F8JP8GZ"
+  },
+  {
+   "asin": "B078W4XP77",
+   "title": "SMARTAKE 13-Piece Drawer Organizers with Non-Slip Silicone Pads, 5-Size",
+   "price": "16.99",
+   "rating": "4.8",
+   "reviews": 11940,
+   "img": "https://m.media-amazon.com/images/I/81onQ9UrWBL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B078W4XP77"
+  },
+  {
+   "asin": "B0744NP826",
+   "title": "STORi SimpleSort Drawer Organizer Bins 6 pc Set, Multi-size, Bathroom Organizers and Storage, Makeup Organizer, Desk Organizer, Vanity Organizer, Clear Organizing Containers, Made in USA",
+   "price": "14.99",
+   "rating": "4.8",
+   "reviews": 11202,
+   "img": "https://m.media-amazon.com/images/I/619eJiQAUgL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B0744NP826"
+  },
+  {
+   "asin": "B01DMDYW5U",
+   "title": "U Brands Hanging File Desk Organizer, Rose Gold Wire Metal - 854U02-06",
+   "price": "22.79",
+   "rating": "4.9",
+   "reviews": 4503,
+   "img": "https://m.media-amazon.com/images/I/81eR287qKJL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B01DMDYW5U"
+  },
+  {
+   "asin": "B0DRFCMY5Y",
+   "title": "GAMENOTE Rotating Art Supply Organizer, Lazy Susan Caddy, Large",
+   "price": "31.99",
+   "rating": "4.9",
+   "reviews": 1992,
+   "img": "https://m.media-amazon.com/images/I/71boo32v4hL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B0DRFCMY5Y"
+  },
+  {
+   "asin": "B08XW3826J",
+   "title": "Vaydeer Metal Pen Holder Aluminum Pencil Holder for desk, Round Desktop Organizer and Black Pencil Cup for Office, School, Home and Stationary Supplies (3.15 x 3.15 x 3.94 Inches)",
+   "price": "15.99",
+   "rating": "4.9",
+   "reviews": 1077,
+   "img": "https://m.media-amazon.com/images/I/71awyXSBwkL._AC_UL320_.jpg",
+   "category": "stationery",
+   "url": "https://www.amazon.com/dp/B08XW3826J"
+  },
+  {
+   "asin": "B08731J1L4",
+   "title": "Govee Smart Plug, WiFi Outlet Compatible with Alexa & Google Assts, 4 pcs | Smart Home Plugs, 15A WiFi Outlet, Timer Funct...",
+   "price": 20.39,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61MuErhykXL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B08731J1L4?tag=faiza013-20"
+  },
+  {
+   "asin": "B08LN3C7WK",
+   "title": "Kasa Smart Plug Mini with Energy Monitoring, KP115 | Wi-Fi Outlet Works with Alexa, Google Home, Wi-Fi Simple Setup, No Hu...",
+   "price": 8.31,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/611+I08uiFL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B08LN3C7WK?tag=faiza013-20"
+  },
+  {
+   "asin": "B08NL3CJD6",
+   "title": "Sylvania WiFi Smart Plug, Voice Control, Compatible with Alexa and Google Home, Timer, On/Off, White - 4 Pack (75703)",
+   "price": 12.09,
+   "rating": 4.3,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61ud5z3vM3L._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B08NL3CJD6?tag=faiza013-20"
+  },
+  {
+   "asin": "B091699Z3W",
+   "title": "Kasa Smart Plug Ultra Mini 15A, EP10, Smart Home Wi-Fi Outlet | Works with Alexa & Google Home, No Hub Required, UP Certif...",
+   "price": 6.8,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/51BFrPaLzZL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B091699Z3W?tag=faiza013-20"
+  },
+  {
+   "asin": "B099KLNM24",
+   "title": "Kasa Outdoor Smart Plug KP401, Smart Home Wi-Fi Outlet Timer | 15A/1875W, IP64 Weather Resistance, Compatible with Alexa, ...",
+   "price": 12.84,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/613VWkNY3ZL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B099KLNM24?tag=faiza013-20"
+  },
+  {
+   "asin": "B09JZKK3KS",
+   "title": "GHome Smart Plug Mini, WiFi Smart Outlet Plug Works with Alexa and Google Home, Timer Outlet with APP Control, 2.4GHz Netw...",
+   "price": 19.41,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61b-iG0eIQL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B09JZKK3KS?tag=faiza013-20"
+  },
+  {
+   "asin": "B09KBL3FZJ",
+   "title": "Smarter Living \u2013 Smart WiFi Door and Window Sensor (2-Pack), Phone Notifications via Smart Life, Tuya, Alexa and SmartThin...",
+   "price": 18.89,
+   "rating": 4.1,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/51OJ-6koVjL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B09KBL3FZJ?tag=faiza013-20"
+  },
+  {
+   "asin": "B0BMWLH7X1",
+   "title": "Kasa Apple HomeKit Outdoor Smart Plug, EP40A, 2 Sockets, No Hub Required | IP64 Weather Resistance for Outdoor String Ligh...",
+   "price": 15.11,
+   "rating": 4.4,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/613oPTMuNxL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0BMWLH7X1?tag=faiza013-20"
+  },
+  {
+   "asin": "B0BYH66C3S",
+   "title": "TP-Link Tapo Motion Sensor, Requires Tapo Hub, Long Battery Life w/Sub-1G Low-Power Wireless Protocol, Wide Range Detectio...",
+   "price": 10.57,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/41d+gHdbxSL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0BYH66C3S?tag=faiza013-20"
+  },
+  {
+   "asin": "B0C371HB66",
+   "title": "Linkind Matter Smart Plug, Works with Apple Home, Alexa, Siri, Google Home | Smart Outlet Timer & Schedule, Smart Home, 15...",
+   "price": 12.09,
+   "rating": 4.3,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61D7XG5naIL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0C371HB66?tag=faiza013-20"
+  },
+  {
+   "asin": "B0CW5D561J",
+   "title": "Amazon Basics Dual Smart Plug with Motion Sensor and Night Light, Works with Alexa Only, Control from Anywhere, Automatic ...",
+   "price": 17.38,
+   "rating": 4.2,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/6161AF4ABXL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0CW5D561J?tag=faiza013-20"
+  },
+  {
+   "asin": "B0CZPCBFLY",
+   "title": "WiZ Smart Plug, Sunset to Sunrise Automation, Motion Detection, Control with Voice or App, Indoor Smart Plug Compatible wi...",
+   "price": 11.39,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71ki3UGGH2L._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0CZPCBFLY?tag=faiza013-20"
+  },
+  {
+   "asin": "B0D7ZW512L",
+   "title": "GHome Smart Plug, WiFi Smart Plugs that Work with Alexa and Google Home | WiFi Smart Outlet Timer Indoor Light Timers with...",
+   "price": 14.35,
+   "rating": 4.4,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61ZVgyQXFnL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0D7ZW512L?tag=faiza013-20"
+  },
+  {
+   "asin": "B0F8QK7V25",
+   "title": "PIR Motion Sensor Light Socket Smart Screw in Light Bulb Outlet Compatible with E26/E27 Motion Activated Bulb Holder Adapt...",
+   "price": 14.35,
+   "rating": 4.1,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61vBfPTsLPL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0F8QK7V25?tag=faiza013-20"
+  },
+  {
+   "asin": "B0FHWD1NZD",
+   "title": "LoraTap Smart Wi-Fi Light Bulb Socket Adapter, Voice for Alexa/Google, Smart Life App Group & Timer, 60W Max, Incandescent...",
+   "price": 20.4,
+   "rating": 4.4,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61GwjyL7j5L._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0FHWD1NZD?tag=faiza013-20"
+  },
+  {
+   "asin": "B0FHWG841N",
+   "title": "LoraTap Smart Wi-Fi Light Bulb Socket Adapter, Voice for Alexa/Google, Smart Life App Group & Timer, 60W Max, Incandescent...",
+   "price": 12.84,
+   "rating": 4.4,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/51HQT6WmrML._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0FHWG841N?tag=faiza013-20"
+  },
+  {
+   "asin": "B0FSZS357P",
+   "title": "SONOFF Matter Smart Plug S41s 4-Pack, 15A 1800W WiFi Smart Plug Outlet, ETL Certified, Remote & Voice Control with Timer, ...",
+   "price": 22.67,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/610Je-ng4hL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0FSZS357P?tag=faiza013-20"
+  },
+  {
+   "asin": "B0H63JWZFT",
+   "title": "WiZ Connected Smart Plug 6-Pack, Sunset to Sunrise Automation, Motion Detection, Control with Voice or App, Indoor Smart P...",
+   "price": 34.01,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71ivEL4kLDL._AC_UL640_.jpg",
+   "category": "smart-home",
+   "url": "https://www.amazon.com/dp/B0H63JWZFT?tag=faiza013-20"
+  },
+  {
+   "asin": "B07F8S18D5",
+   "title": "Nulaxy Full Aluminum Dual Folding Cell Phone Stand for Desk, Black | Height Angle Adjustable, Portable, Anti-Slip Base, Fi...",
+   "price": 6.8,
+   "rating": 4.7,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61srjyM7TFL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B07F8S18D5?tag=faiza013-20"
+  },
+  {
+   "asin": "B07T8KL6C6",
+   "title": "Perilogics Universal Airplane Phone Holder Mount, Plane Travel Essentials | In-Flight Phone Stand for Travel, Hands-Free C...",
+   "price": 9.82,
+   "rating": 4.6,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71hmWPEGQRL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B07T8KL6C6?tag=faiza013-20"
+  },
+  {
+   "asin": "B07Z82895W",
+   "title": "LISEN Cell Phone Stand Phone Holder for Desk, Office Decor Gadgets for Men | Office Gifts for Women, iPhone Stand, Gadgets...",
+   "price": 7.55,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61pIqTCmMGL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B07Z82895W?tag=faiza013-20"
+  },
+  {
+   "asin": "B09PVFN7LG",
+   "title": "JOYROOM Motorcycle Phone Mount, [1s Auto Lock][100mph Military Anti-Shake] Bike Phone Holder for Bicycle, [10s Quick Insta...",
+   "price": 12.09,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/81ms0JZ+TJL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B09PVFN7LG?tag=faiza013-20"
+  },
+  {
+   "asin": "B0CHYBKQPM",
+   "title": "Miracase Phone Holders for Your Car with Metal Hook Clip, Air Vent Cell Phone Stand Car Mount, Universal Automobile Cradle...",
+   "price": 9.82,
+   "rating": 4.4,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/81ERIxogALL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0CHYBKQPM?tag=faiza013-20"
+  },
+  {
+   "asin": "B0CRQ9J4ZC",
+   "title": "COOPER MagStand Magnetic Phone Stand for Desk, MagSafe Tripod, iPhone 17 | 9-13\" Adjustable, Weighted Base, Strong Magnet ...",
+   "price": 12.81,
+   "rating": 4.6,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71lyeCWhOQL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0CRQ9J4ZC?tag=faiza013-20"
+  },
+  {
+   "asin": "B0CYH3LCFC",
+   "title": "Yojaro Silicone Suction Cup Phone Case Mount Double Sided, Phone Accessories Hands-Free Strong Grip Holder for Selfies and...",
+   "price": 4.53,
+   "rating": 4.1,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/61duLar7awL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0CYH3LCFC?tag=faiza013-20"
+  },
+  {
+   "asin": "B0DHX9XBK7",
+   "title": "Car Phone Holder for Honda CR-V/HR-V/CRV 2023-2026 Accessories, 7/9\" Screen | Magsafe Magnetic Cell Phone Mount Clip Compa...",
+   "price": 12.84,
+   "rating": 4.3,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/717XJCzddoL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0DHX9XBK7?tag=faiza013-20"
+  },
+  {
+   "asin": "B0DN1S1YLV",
+   "title": "Compact Foldable Car Phone Holder for Magsafe [78+LBS Strongest Suction & 2400gf Strongest Magnetic] 360\u00b0 Adjustable Car P...",
+   "price": 20.4,
+   "rating": 4.3,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71I64kA4p2L._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0DN1S1YLV?tag=faiza013-20"
+  },
+  {
+   "asin": "B0FC2QW883",
+   "title": "MagSafe Phone Grip Holder Dual-Sided Magnetic Finger Ring with Kickstand | for iPhone 17/16/18 Pro Max/15 Plus/14 Pro/13/1...",
+   "price": 6.8,
+   "rating": 4.0,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71WfVZeZyFL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0FC2QW883?tag=faiza013-20"
+  },
+  {
+   "asin": "B0FCM3SLLQ",
+   "title": "OMOTON TP02 Magnetic Phone Tripod for MagSafe, 360\u00b0 Pivot, Clamp & Stand | 3-Way Compact Phone Mount with Clamp, Magnetic ...",
+   "price": 18.89,
+   "rating": 4.6,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/719cPmxXF3L._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0FCM3SLLQ?tag=faiza013-20"
+  },
+  {
+   "asin": "B0FP9NLPN9",
+   "title": "Magnetic Phone Holder for Car 2026 Heavy Duty Model 360\u00b0 Adjustable Vacuum Suction Car Magsafe Phone Mount Cell Phone Hold...",
+   "price": 13.6,
+   "rating": 4.2,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71E1ZCJw3DL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0FP9NLPN9?tag=faiza013-20"
+  },
+  {
+   "asin": "B0G56QG1S8",
+   "title": "GolbinBox Magnetic Phone Holder for Gym,Adjustable Tripod Mount Ring Black | Gym Magnetic Phone Holder, Portable Phone Mou...",
+   "price": 12.09,
+   "rating": 4.5,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/818J1SH-vML._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0G56QG1S8?tag=faiza013-20"
+  },
+  {
+   "asin": "B0HCV7HCNR",
+   "title": "Estbuc Car Phone Holder for Magsafe [80+LBS Max Suction & 2500gf Magnetic] | 360\u00b0 Adjustable Car Phone Mount, Phone Holder...",
+   "price": 12.08,
+   "rating": 4.8,
+   "reviews": null,
+   "img": "https://m.media-amazon.com/images/I/71ToV4cBzWL._AC_UY218_.jpg",
+   "category": "phone-accessories",
+   "url": "https://www.amazon.com/dp/B0HCV7HCNR?tag=faiza013-20"
+  }
+ ]
+}
